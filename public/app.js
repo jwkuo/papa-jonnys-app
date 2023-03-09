@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000'
+const API_URL = 'https://x9ln0qkcxb.execute-api.us-east-1.amazonaws.com/dev'
 
 let pizzas = []
 
