@@ -1,9 +1,11 @@
+const API_URL = 'http://localhost:3000'
+
 let pizzas = []
 
 const subHeader = document.getElementById('subheader')
 const pizzaList = document.getElementById('pizzaList')
 
-fetch("http://localhost:3000/pizzas")
+fetch(`${API_URL}/pizzas`)
   .then((response) => response.json())
   .then((data) => {
     pizzas = data.data

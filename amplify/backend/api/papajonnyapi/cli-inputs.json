@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/pizzas": {
+      "name": "/pizzas",
+      "lambdaFunction": "papajonnyapi",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
