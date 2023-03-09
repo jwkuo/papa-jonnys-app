@@ -6,8 +6,10 @@ This app automatically deploys the backend and frontend for this app when the ma
 To install the AWS Amplify CLI: `npm install -g @aws-amplify/cli`
 
 If this is your first time using the AWS Amplify CLI, follow the [Getting Started steps](https://docs.amplify.aws/start/getting-started/installation/q/integration/js/)
+
+
 # To Run Locally
 1. Clone this repo.
 2. Install packages with `npm install`
 3. Run `npm run dev` to start the REST API. (http://localhost:3000).
-4. Run `npx http-server` to host the Web UI. (http://localhost:8080).
+4. Run `npx http-server -c-1` to host the Web UI. (http://localhost:8080).
