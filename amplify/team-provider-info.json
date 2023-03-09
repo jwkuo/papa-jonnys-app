@@ -15,7 +15,7 @@
       "function": {
         "papajonnyapi": {
           "deploymentBucketName": "amplify-papajonnysapp-dev-225335-deployment",
-          "s3Key": "amplify-builds/papajonnyapi-5754696b4f742f304448-build.zip"
+          "s3Key": "amplify-builds/papajonnyapi-32534b3769594e776e77-build.zip"
         }
       },
       "api": {
