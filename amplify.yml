@@ -1,0 +1,22 @@
+version: 1
+backend:
+  phases:
+    preBuild:
+      commands:
+        - npm ci
+    # IMPORTANT - Please verify your build commands
+    build:
+      commands:
+        - '# Execute Amplify CLI with the helper script'
+        - amplifyPush --simple
+frontend:
+  phases:
+    # IMPORTANT - Please verify your build commands
+    build:
+      commands:
+       - sed -i "s|^const API_URL = .*|const API_URL = '${API_URL}'|" public/app.js
+  artifacts:
+    # IMPORTANT - Please verify your build output directory
+    baseDirectory: /public
+    files:
+      - '**/*'
