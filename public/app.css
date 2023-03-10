@@ -68,6 +68,9 @@ footer {
     header .tagline h2 {
         font-size: 1.75rem;
     }
+    ul {
+        display: flex;
+    }
     li {
         flex-direction: row;
         justify-content: center;
