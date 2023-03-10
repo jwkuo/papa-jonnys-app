@@ -20,5 +20,5 @@ fetch(`${API_URL}/pizzas`)
         </li>`
     })
     pizzaList.innerHTML = listItems
-    subHeader.innerText = 'Checkout our Pizzas!'
+    subHeader.innerText = 'Fresh Pizzas!'
   });

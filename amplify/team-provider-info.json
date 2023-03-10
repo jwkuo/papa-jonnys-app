@@ -22,5 +22,29 @@
         "papajonnyapi": {}
       }
     }
+  },
+  "production": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-papajonnysapp-production-194407-authRole",
+      "UnauthRoleArn": "arn:aws:iam::718753262755:role/amplify-papajonnysapp-production-194407-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::718753262755:role/amplify-papajonnysapp-production-194407-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-papajonnysapp-production-194407-deployment",
+      "UnauthRoleName": "amplify-papajonnysapp-production-194407-unauthRole",
+      "StackName": "amplify-papajonnysapp-production-194407",
+      "StackId": "arn:aws:cloudformation:us-east-1:718753262755:stack/amplify-papajonnysapp-production-194407/aac3e1c0-bedc-11ed-9898-0abfc587127d",
+      "AmplifyAppId": "d1dgrrcm34hrop"
+    },
+    "categories": {
+      "function": {
+        "papajonnyapi": {
+          "deploymentBucketName": "amplify-papajonnysapp-production-194407-deployment",
+          "s3Key": "amplify-builds/papajonnyapi-32534b3769594e776e77-build.zip"
+        }
+      },
+      "api": {
+        "papajonnyapi": {}
+      }
+    }
   }
 }
